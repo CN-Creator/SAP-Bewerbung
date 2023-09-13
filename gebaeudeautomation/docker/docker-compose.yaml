@@ -1,0 +1,38 @@
+version: "3.9"
+
+services:
+  geau-db:
+    image: timescale/timescaledb:latest-pg13
+    restart: always
+    container_name: geaudbtimescale
+    environment:
+      POSTGRES_PASSWORD: geauDBPostGresPW2023
+      POSTGRES_USER: postgres
+    ports:
+      - 5432:5432
+    volumes:
+      - ./db:/var/lib/timescale/data
+    profiles:
+      - db
+      - all
+    network_mode: host
+
+  geau-pgadmin:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    container_name: geau-pgadmin
+    ports:
+      - 4501:80
+    depends_on:
+      - geau-db
+    environment:
+      PGADMIN_DEFAULT_EMAIL: geau@admin.de
+      PGADMIN_DEFAULT_PASSWORD: geau123
+    volumes:
+      - ./servers.json:/pgadmin4/servers.json
+    profiles:
+      - db
+      - all
+    network_mode: host

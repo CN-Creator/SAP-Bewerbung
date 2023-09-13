@@ -1,0 +1,124 @@
+{
+  "circadianLight": [
+    {
+      "time": "0:00",
+      "colorTemperature": 500,
+      "brightness": 1.0
+    },
+    {
+      "time": "1:00",
+      "colorTemperature": 500,
+      "brightness": 1.0
+    },
+    {
+      "time": "2:00",
+      "colorTemperature": 500,
+      "brightness": 1.0
+    },
+    {
+      "time": "3:00",
+      "colorTemperature": 500,
+      "brightness": 1.0
+    },
+    {
+      "time": "4:00",
+      "colorTemperature": 500,
+      "brightness": 5.0
+    },
+    {
+      "time": "5:00",
+      "colorTemperature": 370,
+      "brightness": 20.0
+    },
+    {
+      "time": "6:00",
+      "colorTemperature": 370,
+      "brightness": 35.0
+    },
+    {
+      "time": "7:00",
+      "colorTemperature": 370,
+      "brightness": 50.0
+    },
+    {
+      "time": "8:00",
+      "colorTemperature": 250,
+      "brightness": 250.0
+    },
+    {
+      "time": "9:00",
+      "colorTemperature": 250,
+      "brightness": 500.0
+    },
+    {
+      "time": "10:00",
+      "colorTemperature": 200,
+      "brightness": 1000.0
+    },
+    {
+      "time": "11:00",
+      "colorTemperature": 200,
+      "brightness": 1500.0
+    },
+    {
+      "time": "12:00",
+      "colorTemperature": 200,
+      "brightness": 2000.0
+    },
+    {
+      "time": "13:00",
+      "colorTemperature": 200,
+      "brightness": 1500.0
+    },
+    {
+      "time": "14:00",
+      "colorTemperature": 200,
+      "brightness": 1000.0
+    },
+    {
+      "time": "15:00",
+      "colorTemperature": 250,
+      "brightness": 500.0
+    },
+    {
+      "time": "16:00",
+      "colorTemperature": 250,
+      "brightness": 250.0
+    },
+    {
+      "time": "17:00",
+      "colorTemperature": 250,
+      "brightness": 100.0
+    },
+    {
+      "time": "18:00",
+      "colorTemperature": 370,
+      "brightness": 50.0
+    },
+    {
+      "time": "19:00",
+      "colorTemperature": 370,
+      "brightness": 25.0
+    },
+    {
+      "time": "20:00",
+      "colorTemperature": 370,
+      "brightness": 6.0
+    },
+    {
+      "time": "21:00",
+      "colorTemperature": 500,
+      "brightness": 1.0
+    },
+    {
+      "time": "22:00",
+      "colorTemperature": 500,
+      "brightness": 1.0
+    },
+    {
+      "time": "23:00",
+      "colorTemperature": 500,
+      "brightness": 1.0
+    }
+  ]
+}
